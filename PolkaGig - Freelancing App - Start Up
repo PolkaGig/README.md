@@ -1,0 +1,47 @@
+# README.md
+Eliminating high freelancer fees with Polkadot: A non-custodial marketplace for secure, instant gig settlements via native USDT/USDC.
+# PolkaGig: Decentralized Freelance Marketplace
+
+[![Ecosystem](https://img.shields.io/badge/Polkadot-Asset%20Hub-E6007A)](https://polkadot.network)
+[![Status](https://img.shields.io/badge/Status-Proposal%20Phase-blue)](#)
+
+## 🏗 Project Overview
+PolkaGig is a consumer-facing application designed to onboard the global freelance workforce into the Polkadot ecosystem. By leveraging **System Chains**, we remove the high fees and payment friction found in traditional gig platforms.
+
+### Key Technical Features
+* **Asset Hub Payments:** Native USDT/USDC settlement to eliminate volatility.
+* **Non-Custodial Escrow:** ink! smart contracts to lock and release funds based on milestone completion.
+* **Abstracted Identity:** Integration with the **People Chain** for sovereign reputation.
+* **Low Barriers:** Social login integration via Proxy Accounts (StakingOperator logic).
+
+---
+
+## 🛠 Tech Stack
+* **Language:** Rust / ink! (Smart Contracts)
+* **Frontend:** React / Polkadot-API (PAPI)
+* **Storage:** IPFS (via Crust) for job descriptions and metadata.
+* **Network:** Polkadot Asset Hub & People Chain.
+
+---
+
+## 🚀 Roadmap & Development Status
+Currently in the **Treasury Proposal Phase**.
+
+### Milestone 1: Core Escrow Protocol (In Progress)
+- [ ] ink! contract architecture for 2-of-3 multi-sig.
+- [ ] Asset Hub XCM (Cross-Chain Messaging) integration tests.
+- [ ] Local environment setup instructions.
+
+---
+
+## 📂 Repository Structure
+* `/contracts`: ink! smart contract source code.
+* `/frontend`: React application and wallet integration.
+* `/docs`: Technical whitepaper and architectural diagrams.
+
+---
+
+## 🤝 How to Verify
+To verify the progress of this Treasury-funded project:
+1. Clone the repo: `git clone https://github.com/[Your-Username]/polkagig.git`
+2. Follow the build instructions in `/contracts` to compile the escrow logic.
